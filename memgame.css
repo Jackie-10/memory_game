@@ -1,0 +1,28 @@
+*{    
+    box-sizing: border-box;   
+}
+
+body{  
+    margin-top: 50px; 
+    font-family: sans-serif;       
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url("./image/93ea52fb-dec2-4cfa-a1ae-5de73681a3ba.jpg")     
+
+}
+
+.border{
+     border-spacing: 15px;
+     margin: auto;
+}
+
+.image-box{
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgb(51, 211, 16);   
+    background-image: url("./image/images.jpg");
+    background-size: 120px;
+    background-repeat: no-repeat;
+    border-radius: 10px;    
+}
